@@ -1,0 +1,45 @@
+Creame dentro de esta carpeta una landing profesional para una empresa de instalaciones eléctricas. Usa Next.js 14 (app router), React, Tailwind y GSAP + ScrollTrigger. Las imágenes están en /public/images (subcarpetas permitidas). Cárgalas con <Image> de Next. Optimiza rendimiento, accesibilidad y SEO.
+
+Requisitos:
+- Paleta sobria y técnica: 
+  -- primario: #0B1E3A (azul marino)
+  -- acento: #FFC300 (amarillo eléctrico)
+  -- gris: #E5E7EB y texto #111827
+  -- soporte: #0EA5E9 para detalles
+- Tipografía: Inter o similar, tamaños responsivos.
+- Layout 1 columna móvil, 12-col en desktop con max-w-7xl.
+- Hero con titular claro (“Instalaciones eléctricas seguras y certificadas”), subtítulo corto, CTA doble (Cotizar, Llamar). Fondo con sutil patrón/gradiente + efecto parallax suave en un ícono/imagen.
+- Sección “Servicios” (residencial, comercial, industrial, tableros, cableado estructurado, mantenciones). Cards con icono, breve copy y micro-animación hover.
+- Sección “Certificaciones y seguridad”: badges/íconos (ej. SEC, protocolos, EPC). Lista con checks.
+- Sección “Proyectos” tipo grid con 6 imágenes desde /public/images/proyectos/* con overlay y animación stagger al hacer scroll. Lightbox simple o modal.
+- Sección “Proceso de trabajo” en 4 pasos con timeline horizontal y animación al entrar en viewport.
+- Sección “Cobertura y tiempos” con mapa/ilustración simple y texto.
+- Testimonios (3). Carrusel autoplay accesible con pausa al hover.
+- CTA final con fondo contrastante y botón grande.
+- Footer con datos legales, WhatsApp link, correo y redes.
+- Barra de contacto fija en mobile: botón WhatsApp y Llamar.
+
+Animaciones:
+- GSAP + ScrollTrigger con 60fps. Stagger ligero en cards, parallax 10–20% en hero, fade-up al entrar. Sin animaciones bloqueantes.
+- Reducir/disable animaciones si el usuario prefiere “reduce motion”.
+
+SEO y accesibilidad:
+- Metadatos: title, meta description, OG/Twitter.
+- Headings jerárquicos, aria-labels, contraste AA.
+- Imagenes con alt. Lazy por defecto.
+
+Código:
+- Estructura:
+  /app/(marketing)/page.tsx
+  /components/Hero.tsx, Services.tsx, Certifications.tsx, Projects.tsx, Process.tsx, Coverage.tsx, Testimonials.tsx, Cta.tsx, Footer.tsx, Navbar.tsx
+  /styles/globals.css
+  /lib/animations.ts (helpers GSAP)
+- Tailwind configurado (content, theme extend con colores).
+- Comandos para correr e instrucciones README.
+- Placeholders de copy en español, orientados a negocio eléctrico.
+- Donde corresponda, toma imágenes ejemplo desde /public/images; si falta alguna, coloca un nombre sugerido y comenta.
+
+Entrega:
+- Todos los archivos con código completo.
+- Incluir ejemplos de import de imágenes con <Image>.
+- Añade pruebas de Lighthouse básicas en README (cómo correrlas).

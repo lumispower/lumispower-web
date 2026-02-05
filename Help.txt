@@ -1,0 +1,17 @@
+//Cuando quiera publicar, primero debo ejecutar "npm run build" y después "firebase deploy --only hosting"
+//Si quiero ejecutar la aplicación para ver los cambios ejecuto "npm run dev"
+
+//Para abrir codex
+- ejecutar "cd C:\Users\Vreik\Documents\Nueva carpeta"
+- después "codex"
+- después "/approvals" y elegir full Access
+- después Tirar el promp
+
+//Paso para modificaciones
+1. Abrir Codex
+2. Explicarle a IA las modificaciones (si es necesario dejar una carpeta "evidencias" en la que puedo dejar imágenes [explicativas de los cambios que quiero])
+3. Una vez la IA termine de ejecutar los cambios siempre pedir que valide que el "npm run build" va a funcionar después de las modificaciones (esto se hace agregando al final del promp que valide el comando).
+4. Después que se valide debo ejecutar nuevamente "npm run build" y posterior "firebase deploy --only hosting".
+
+//Para los prompt
+Es importante que los puntos esten enumerados para que aplique los puntos por orden y no se pase ninguno.

@@ -1,0 +1,13 @@
+
+> landing-instalaciones-electricas@0.1.0 dev
+> next dev -p 4001
+
+  ▲ Next.js 14.2.33
+  - Local:        http://localhost:4001
+
+ ✓ Starting...
+ ✓ Ready in 1986ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.3s (638 modules)
+ GET / 200 in 4655ms
+ ✓ Compiled in 570ms (290 modules)

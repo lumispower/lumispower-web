@@ -1,0 +1,85 @@
+Instrucciones de actualización – Lumispower Landing Page
+
+Framework y librerías:
+Next.js 14 (App Router), React, Tailwind CSS, GSAP + ScrollTrigger.
+Mantener toda la estructura, componentes y optimizaciones definidas en el archivo original.
+
+---
+
+### Modificaciones estructurales generales
+
+* Nombre corporativo completo: **Ingeniería Eléctrica Lumispower SPA**
+* Nombre de fantasía: **Lumispower**
+* Reemplazar en:
+
+  * Navbar/top page: usar “Lumispower” (antes Electrasafe).
+  * Footer: usar “Ingeniería Eléctrica Lumispower SPA”.
+  * Mantener la leyenda: “Instalaciones eléctricas certificadas SEC A.”
+  * RUT: **77.640.373-3**
+  * Correo: **[lumispowerspa@gmail.com](mailto:lumispowerspa@gmail.com)**
+  * WhatsApp/Teléfonos: **+56 9 3876 8780**
+  * Unificar contacto WhatsApp con teléfonos, habilitando apertura directa del chat.
+
+---
+
+### Estructura de secciones (6)
+
+#### 1. Sección “Nosotros”
+
+* Layout tipo **grid 2 columnas**, dos cards animadas con GSAP (fade-up + ligera rotación o escala al aparecer).
+* Card 1: **Misión**
+
+  * Texto extraído del contenido original de “Misión”.
+* Card 2: **Visión**
+
+  * Texto extraído del contenido original de “Visión”.
+* Título superior: “Quiénes Somos”.
+* Colores y tipografía según paleta definida.
+* Mantener diseño sobrio, técnico y coherente con estilo global.
+
+#### 2. Sección “Servicios”
+
+* Mantener estructura actual (cards animadas con hover).
+* Actualizar textos e ítems con la información de las imágenes:
+
+  * **Instalaciones eléctricas en baja y media tensión**
+  * **Instalaciones y mantenciones de climatización**
+  * **Instalaciones de corrientes débiles**
+* Mantener animaciones, íconos y estilo visual.
+
+#### 3. Sección “Proyectos”
+
+* Mantener sin cambios (solo placeholder, pendiente de actualización futura).
+
+#### 4. Sección “Proceso de trabajo”
+
+* Mantener timeline de 4 pasos.
+* **Eliminar** referencia a semanas o tiempos específicos.
+* Mantener animaciones de entrada (fade-up + stagger suave).
+
+#### 5. Sección “Cobertura”
+
+* Reemplazar texto descriptivo:
+
+  > “Operamos en la zona central y sur de Chile, desde Coquimbo hasta Puerto Montt, con oficina central en Santiago, Región Metropolitana.”
+* Eliminar menciones a tiempos de respuesta.
+* Mantener ilustración o mapa simple.
+
+#### 6. Sección “Testimonios”
+
+* Mantener estructura, funcionalidad y animaciones.
+* Pendiente de reemplazo de contenido.
+
+---
+
+### CTA Final
+
+* Reemplazar texto principal:
+  **Antes:** “Agenda una visita técnica y recibe tu propuesta en 48h.”
+  **Nuevo:** “Solicita tu evaluación eléctrica y obtén una propuesta personalizada en 48h.”
+  (puede ajustarse por Codex según tono comercial del sitio)
+* Mantener bloque de contacto “Coordinemos tu proyecto”, actualizando:
+
+  * Teléfonos: **+56 9 3876 8780**
+  * Correo: **[lumispowerspa@gmail.com](mailto:lumispowerspa@gmail.com)**
+  * WhatsApp integrado con teléfonos (abrir chat directo al click).

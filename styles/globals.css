@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-ink font-sans antialiased;
+}
+
+main {
+  @apply bg-white;
+}
+
+.container-grid {
+  @apply mx-auto grid max-w-7xl gap-10 px-6 sm:px-8 lg:grid-cols-12 lg:gap-12;
+}
+
+.card-surface {
+  @apply rounded-2xl border border-surface/60 bg-white shadow-soft backdrop-blur;
+}
+
+.section-title {
+  @apply text-3xl font-semibold text-primary sm:text-4xl lg:text-5xl;
+}
+
+.section-intro {
+  @apply mt-4 max-w-2xl text-base text-ink/80 sm:text-lg;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-gradient-to-r from-primary via-primary/90 to-info px-6 py-3 text-base font-semibold text-white shadow-soft transition hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-info;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-primary/70 px-6 py-3 text-base font-semibold text-primary transition hover:border-primary hover:bg-primary/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-info;
+}
+
+.mobile-contact-bar {
+  @apply fixed bottom-4 left-1/2 z-50 flex w-[90%] max-w-xl -translate-x-1/2 items-center justify-around rounded-full border border-surface/80 bg-primary/95 p-3 text-white shadow-lg backdrop-blur md:hidden;
+}
+
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full border border-surface px-5 py-2.5 text-base font-semibold text-ink bg-white;
+  box-shadow: 0 12px 28px -14px rgba(11, 30, 58, 0.45);
+}
